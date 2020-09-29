@@ -22,6 +22,10 @@ img {
     column-gap: 30px;
 }
 
+.about-content h2 {
+    margin-top: 0px;
+}
+
 @media (min-width: 2000px) {
     .portfolio-grid {
     max-width: 1000px;

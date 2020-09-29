@@ -40,7 +40,7 @@ body {
   	grid-template-rows: auto 1fr auto;
   	grid-gap: 1em;
   	height: 100vh;
-  	grid-template-areas: 
+  	grid-template-areas:
     'header'
     'main'
     'footer';
@@ -157,6 +157,12 @@ li.portfolio-card a {
 	line-height: 0;
 	padding: 0;
 	margin: 0;
+}
+
+li.portfolio-card h2 {
+	min-height: 24px;
+	margin-top: 16px;
+	margin-bottom: 16px;
 }
 
 .contact-grid {
@@ -502,7 +508,7 @@ h3 {
 		margin-left: auto;
 		margin-right: auto;
 	}
-	
+
 	.case-study-grid {
 		grid-template-columns: 1fr;
 		grid-template-rows: auto auto auto auto auto auto;
