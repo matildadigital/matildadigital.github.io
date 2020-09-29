@@ -8,7 +8,14 @@ img {
     border: 1px solid #000000;
 }
 
-.gallery {
+.gallery_1{
+    display: grid;
+    grid-template-columns: [left-border] 1fr [divider-1] 1fr [divider-2] 1fr [right-border];
+    grid-template-rows: auto;
+    column-gap: 30px;
+}
+
+.gallery_2{
     display: grid;
     grid-template-columns: [left-border] 1fr [divider-1] 1fr [divider-2] 1fr [divider-3] 1fr [right-border];
     grid-template-rows: auto;
