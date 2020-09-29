@@ -1,0 +1,28 @@
+/* Place any custom CSS overrides in this file */
+.portfolio-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 700px));
+    justify-content: center;
+}
+
+img {
+    border: 1px solid #000000;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: [left-border] 1fr [divider-1] 1fr [divider-2] 1fr [divider-3] 1fr [right-border];
+    grid-template-rows: auto;
+    column-gap: 30px;
+}
+
+@media (min-width: 2000px) {
+    .portfolio-grid {
+    max-width: 1000px;
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery{
+        display: block;
+    }
+}
