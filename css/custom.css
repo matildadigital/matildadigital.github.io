@@ -26,6 +26,13 @@ img {
     margin-top: 0px;
 }
 
+li.portfolio-card h2 {
+    line-height: normal;
+	min-height: 24px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
 @media (min-width: 2000px) {
     .portfolio-grid {
     max-width: 1000px;

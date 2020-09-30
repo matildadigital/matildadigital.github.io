@@ -159,12 +159,6 @@ li.portfolio-card a {
 	margin: 0;
 }
 
-li.portfolio-card h2 {
-	min-height: 24px;
-	margin-top: 16px;
-	margin-bottom: 16px;
-}
-
 .contact-grid {
 	display: grid;
 	max-width: 1000px;
