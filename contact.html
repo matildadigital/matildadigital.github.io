@@ -2,14 +2,12 @@
 <html lang="en">
 
 	<head>
-		<title>Matilda Asuzu | Product and UX Designer</title>
+		<title>Matilda Asuzu | Contact</title>
 		<meta charset="UTF-8">
-  		<meta name="description" content="Design portfolio">
+  		<meta name="description" content="How to reach me">
  		<meta name="keywords" content="product design, ux, ui, user experience, portfolio, designer">
 		<link rel="stylesheet" href="css/site.css">
 		<link rel="stylesheet" href="css/custom.css">
-		<link rel="stylesheet" href="css/magnific-popup.css">
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<link rel="icon" type="image/png" href="images/logo.png">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
@@ -18,7 +16,6 @@
 		<div id="page-grid">
 
 			<header>
-				<a id="top" aria-hidden="true" style="visibility: hidden"></a>
 				<nav class="top-nav-grid" role="main-nav">
 					<a href="index.html" class="nav-logo">
 						<svg id="logo" width="50px" height="50px" viewBox="0 0 304 304" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -40,38 +37,14 @@
 			<main role="main">
 				<div class="main-grid">
 					<section class="intro-content">
-						<h1>Hi, I'm Matilda!<br>I'm a product and user experience designer.</h1>
+						<h1>Here's how you can reach me:</h1>
+						<div class="contact-grid contact-page">
+							<div class="contact-grid-email contact-page-email">
+								<div class="js-emailaddress">matildadigital@gmail.com</div>
+								<button class="js-emailcopybtn">Copy Email</button>
+							</div>
 
-					</section>
-					<section>
-						<ul class="portfolio-grid" aria-label="Portfolio projects">
-							<li class="portfolio-card" aria-label="Project name">
-								<a href="portfolio/project2.html">
-									<h2>MAX/Center Referrals UX Research</h2>
-									<img src="portfolio/project2-images/testsession.png" alt="portfolio thumbnail">
-								</a>
-							</li>
-							<li class="portfolio-card" aria-label="Project name">
-								<a href="portfolio/project1.html">
-									<h2>MAX/Center Password Recovery Re-design</h2>
-									<img src="portfolio/project1-images/enter-email-address.png" alt="portfolio thumbnail">
-								</a>
-							</li>
-							<li class="portfolio-card" aria-label="Project name">
-								<a href="portfolio/project3.html">
-									<h2>MAX/Center Referrals Form Re-design Validation</h2>
-									<img src="portfolio/project3-images/maze_block-result-47b12000-fc3e-4ff6-a8b9-1e5d797da022.jpg" alt="portfolio thumbnail">		
-								</a>
-							</li>
-						</ul>
-					</section>
-					<section class="contact-grid">
-						<h2 class="lets-connect">Please get in touch to learn more, or just to say hello.</h2>
-						<div class="contact-grid-email">
-							<div class="js-emailaddress">matildadigital@gmail.com</div>
-							<button class="js-emailcopybtn">Copy Email</button>
-						</div>
-						<ul class="contact-social-horizontal">
+							<ul class="contact-social-horizontal">
 								<li>
 									<a href="https://twitter.com/matildadigital" target="_blank">
 										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="twitter" class="social-icon"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
@@ -83,10 +56,14 @@
 									</a>
 								</li>
 							</ul>
-					</section> <!-- end of contact-grid -->
+						</div><!-- end of contact-grid -->
+					</section>
+
 				</div>
 
 			</main>
+
+			<div></div>
 
 
 			<footer>
@@ -99,8 +76,6 @@
 		</div> <!-- end of page-grid -->
 
 		<script>
-			//Script for the Email Copy Button
-
 			var copyEmailBtn = document.querySelector('.js-emailcopybtn');
 			copyEmailBtn.addEventListener('click', function(event) {
  	 		// Select the email link anchor text
@@ -123,29 +98,6 @@
   			window.getSelection().removeAllRanges();
 			});
 		</script>
-		<script src="scripts/jquery.magnific-popup.js"></script>
-		<script type="text/javascript">
-		   $('.image-link').magnificPopup({
-		type: 'image',
-		mainClass: 'mfp-with-zoom', // this class is for CSS animation below
-
-		zoom: {
-		  enabled: true, // By default it's false, so don't forget to enable it
-
-		  duration: 300, // duration of the effect, in milliseconds
-		  easing: 'ease-in-out', // CSS transition easing function
-
-		  // The "opener" function should return the element from which popup will be zoomed in
-		  // and to which popup will be scaled down
-		  // By defailt it looks for an image tag:
-		  opener: function(openerElement) {
-			// openerElement is the element on which popup was initialized, in this case its <a> tag
-			// you don't need to add "opener" option if this code matches your needs, it's defailt one.
-			return openerElement.is('img') ? openerElement : openerElement.find('img');
-		  }
-		}
-
-	  });	</script>
 	</body>
 
 </html>
