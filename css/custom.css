@@ -4,11 +4,6 @@
     justify-content: center;
 }
 
-/*a img:hover {
-    border: 1px solid #000000;
-    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
-}*/
-
 .gallery_1{
     display: grid;
     grid-template-columns: [left-border] 1fr [divider-1] 1fr [right-border];
@@ -21,6 +16,15 @@
     grid-template-columns: [left-border] 1fr [divider-1] 1fr [divider-2] 1fr [divider-3] 1fr [right-border];
     grid-template-rows: auto;
     column-gap: 30px;
+}
+
+.gallery_2 img {
+    border: 0.5px solid #000000;
+}
+
+.gallery_2 img:hover {
+    border: 0.5px solid #000000;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
 }
 
 .about-content h2 {
